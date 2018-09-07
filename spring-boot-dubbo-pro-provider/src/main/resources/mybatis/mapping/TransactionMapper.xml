@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">    
+    
+<mapper namespace="ac.cn.saya.dao.TransactionDAO">
+
+    <!--查询交易类别[选填编号]-->
+    <select id="getTransactionType"  parameterType="Integer"  resultType="transactionType">
+        select *
+        from transaction_type a
+        <where>
+            <if test = "id != null and id != ''">
+                a.id  = #{id}
+            </if>
+        </where>
+    </select>
+
+</mapper> 

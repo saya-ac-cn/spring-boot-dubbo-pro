@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-pro.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-pro-consumer/spring-boot-dubbo-pro-consumer.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-pro-consumer/spring-boot-dubbo-pro-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-pro-interface/spring-boot-dubbo-pro-interface.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-pro-interface/spring-boot-dubbo-pro-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-pro-provider/spring-boot-dubbo-pro-provider.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-pro-provider/spring-boot-dubbo-pro-provider.iml" />
+    </modules>
+  </component>
+</project>
