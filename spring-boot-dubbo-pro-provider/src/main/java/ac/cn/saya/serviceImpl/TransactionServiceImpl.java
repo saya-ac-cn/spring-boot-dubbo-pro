@@ -33,6 +33,7 @@ public class TransactionServiceImpl implements ITransactionService {
     public List<TransactionTypeEntity> getTransactionType(Integer id) throws Exception {
         List<TransactionTypeEntity> list = new ArrayList<TransactionTypeEntity>();
         try {
+            logger.error("执行service-index公共查询接口");
             list = transactionDAO.getTransactionType(id);
         } catch (Exception e) {
             logger.error("service-index公共查询接口失败，详情："+ Log4jUtils.getTrace(e));

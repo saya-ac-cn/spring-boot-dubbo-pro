@@ -4,6 +4,8 @@
     <!--全局配置-->
     <settings>
         <!--使用jdbc的getGeneratedKeys获取数据库自增主键值-->
+        <!-- 打印查询语句 -->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
         <setting name="useGeneratedKeys" value="true"/>
     </settings>
     <typeAliases>
